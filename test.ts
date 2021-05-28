@@ -1,5 +1,5 @@
 import * as use from '@tensorflow-models/universal-sentence-encoder';
-import * as tf from '@tensorflow/tfjs-node-gpu';
+import * as tf from '@tensorflow/tfjs';
 
 async function main() {
   const sentenceModel = await use.load();
